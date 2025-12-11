@@ -9,10 +9,8 @@ HealthAI is a full-stack, AI-powered healthcare platform designed to enable secu
 - **User Authentication:** Secure login for doctors, patients, and staff (wallet-based and email)
 - **AI Symptom Analysis:** OpenAI-powered symptom checker and medical image diagnosis
 - **Medical Records:** Secure upload, storage, and retrieval of patient records (with IPFS support)
-- **Telemedicine:** Video calls, chat, and appointment scheduling
-- **Emergency Alerts:** Real-time emergency case creation and notifications
+- **Emergency Alerts:** Real-time emergency case creation
 - **Analytics Dashboard:** Health trends, doctor performance, and patient insights
-- **Blockchain Integration:** Prescription and record verification
 - **Supabase Database:** Secure, scalable, and HIPAA-compliant data storage
 
 ---
@@ -78,7 +76,6 @@ Frontend runs on [http://localhost:3001](http://localhost:3001) (or as configure
 
 - `POST /api/auth/wallet-login` — Wallet authentication
 - `POST /api/ai/symptom-analysis` — AI symptom analysis
-- `POST /api/ai/image-diagnosis` — Medical image analysis
 - `POST /api/medical-records` — Upload medical records
 - `POST /api/emergency/alert` — Create emergency alert
 - `GET /api/analytics/dashboard` — Dashboard analytics
